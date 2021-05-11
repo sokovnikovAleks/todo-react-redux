@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.title {
+
+}
+
+.theme {
+  display: flex;
+  align-items: center;
+}
+
+.themeTitle {
+  font-weight: 500;
+}
+
+.tumbler {
+  margin: 0 10px;
+  width: 55px;
+  padding: 0 5px;
+  height: 24px;
+  background-color: #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.tumblerDark {
+  padding-left: 30px;
+  background-color: #fff;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: all .5s;
+}
+
+.circleDark {
+  background-color: #000;
+}
