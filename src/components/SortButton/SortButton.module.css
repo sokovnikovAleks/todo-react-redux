@@ -1,0 +1,12 @@
+.btn {
+  width: 33%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.btnActive {
+  background-color: #06e706;
+}

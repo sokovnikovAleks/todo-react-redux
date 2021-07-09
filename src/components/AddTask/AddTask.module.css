@@ -34,3 +34,16 @@
 .button:focus {
   border: black solid 1px;
 }
+
+@media all and (max-width: 425px){
+  .addTask {
+    flex-direction: column;
+  }
+  .input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .button {
+    width: 100%;
+  }
+}

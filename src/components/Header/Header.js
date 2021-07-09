@@ -1,17 +1,20 @@
-import React, {useState} from 'react';
+import React from 'react';
 import classes from './Header.module.css'
+import {useDispatch, useSelector} from "react-redux";
+import {switchTheme} from "../../store/actions";
 
 const Header = () => {
 
-  const [theme, setTheme] = useState(false)
+  const darkTheme = useSelector(state => state.darkTheme)
+  const dispatch = useDispatch()
 
   const changeTheme = () => {
-    setTheme(!theme)
+    dispatch(switchTheme())
   }
 
   const tumblerClasses = [classes.tumbler]
   const circleClasses = [classes.circle]
-  if (theme) {
+  if (darkTheme) {
     tumblerClasses.push(classes.tumblerDark)
     circleClasses.push(classes.circleDark)
   }

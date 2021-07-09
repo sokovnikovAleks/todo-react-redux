@@ -1,0 +1,36 @@
+.taskWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.icons {
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 110px;
+}
+
+.delete {
+  color: red;
+}
+
+.done {
+  color: #02db02;
+}
+
+.star {
+  color: goldenrod;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.weight {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
